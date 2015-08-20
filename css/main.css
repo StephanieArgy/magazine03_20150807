@@ -1,0 +1,237 @@
+body {
+  background-color: orange;
+  margin: 0;
+}
+
+#magazineName {
+  background-color: rgba(0, 0, 0, .8);
+  color: orange;
+  font-size: 3rem;
+  margin: 0;
+  padding: 15px;
+  position: fixed;
+    top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.mainLogo {
+    content: url(../img/mainLogo_noun_19265_cc.svg);
+    display: block;
+    margin: auto;
+    margin-top:85px;
+    width: 100px;
+}
+
+.mainNav {
+  position: fixed;
+    top: 0;
+  background-color: black;
+  color: white;
+  height: 250px;
+  margin-right: auto;
+  padding-left: 30px;
+  width: 250px;
+  z-index: 100;
+  left: 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .7s ease;
+}
+
+.mainNav ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 1.4rem;
+  font-variant: small-caps;
+}
+
+.mainNav ul a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.off {
+left: -350px;
+}
+
+.mainContent {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+article {
+  border-bottom: 6px double black;
+  clear: both;
+  overflow: hidden;
+}
+
+article:last-of-type {
+  border: none;
+  padding-bottom: 70px;
+}
+
+.image_articleOne {
+    content: url(../img/wheel_noun_117440.svg);
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: .5rem;
+}
+
+.image_articleTwo {
+    content: url(../img/fork_noun_49399_cc.svg);
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: .5rem;
+}
+
+.image_articleThree {
+    content: url(../img/hub_noun_13113_cc.svg);
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: .5rem;
+}
+
+.image_articleFour {
+    content: url(../img/crank_noun_49405_cc.svg);
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: .5rem;
+}
+
+.image_articleFive {
+    content: url(../img/chain_noun_116165_cc.svg);
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: .5rem;
+}
+
+.image_articleSix {
+    content: url(../img/cassette_noun_168572_cc.svg);
+    display: block;
+    float: left;
+    max-width: 25%;
+    padding: .5rem;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, .8);
+  color: orange;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+    bottom: 0px;
+  width: 100%;
+}
+
+.footerMenuTrigger {
+  display: block;
+    -webkit-filter: invert(.8);
+    filter: invert(.8);
+  text-align: center;
+  width: 50px;
+}
+
+@media screen and (min-width: 600px) {
+
+  #magazineName {
+    background-color: transparent;
+    color: black;
+    font-size: 5rem;
+    padding: 15px;
+    position: relative;
+      top: -160px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mainLogo {
+      content: url(../img/mainLogo_noun_19265_cc_RED.svg);
+      display: block;
+      margin: auto;
+      opacity: 0.2;
+      position: relative;
+       left: -12rem;
+      width: 150px;
+  }
+
+  .mainNav {
+    background-color: orange;
+    float: left;
+    position: inherit;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .mainNav ul a {
+    color: black;
+  }
+
+  .mainContent {
+    float: left;
+    margin-left: 20rem;
+    padding-top: 0;
+  }
+
+#articleOne {
+    display: block;
+    position: relative;
+    top: -250px;
+}
+
+#articleTwo {
+    display: block;
+    position: relative;
+    top: -250px;
+}
+
+#articleThree {
+    display: block;
+    position: relative;
+    top: -250px;
+}
+
+#articleFour {
+    display: block;
+    position: relative;
+    top: -250px;
+}
+
+#articleFive {
+    display: block;
+    position: relative;
+    top: -250px;
+}
+
+#articleSix {
+    display: block;
+    position: relative;
+    top: -250px;
+}
+
+  article:nth-of-type(even)>div {
+    float: right;
+  }
+
+  article:last-of-type {
+    border: none;
+    padding-bottom: 0px;
+  }
+
+  footer {
+    display: none;
+  }
+
+}
